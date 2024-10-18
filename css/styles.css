@@ -211,7 +211,7 @@ ul {
 
 .features-list {
   display: flex;
-  align-items: center;
+
   gap: 24px;
 }
 .features-icon {
@@ -305,8 +305,16 @@ img {
   padding: 32px 0 32px;
   border-radius: 0 0 4px 4px;
 }
+.icons-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
 
-.container-our-portfolio {
+  border-radius: 50%;
+}
+
+. .container-our-portfolio {
   width: 1128px;
   margin: auto;
   padding: 120px 0 120px 0;
