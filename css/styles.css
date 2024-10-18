@@ -214,7 +214,17 @@ ul {
   align-items: center;
   gap: 24px;
 }
+.features-icon {
+  display: flex;
 
+  justify-content: center;
+  margin: 0 auto;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  width: 264px;
+  height: 112px;
+  background: #f4f4fd;
+}
 .features-item {
   width: calc((100% - 72px) / 4);
 }
