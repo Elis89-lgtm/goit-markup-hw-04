@@ -410,22 +410,18 @@ overflow: auto;
 
 .page-footer {
   background-color: #2e2f42;
-  max-width: 1440px;
-  max-height: 312px;
   width: 100%;
   margin: 0 auto;
 }
+
 .container-footer {
   display: flex;
-  justify-content: space-between;
   align-items: flex-start;
   padding: 0 120px;
+ 
 }
 .logo-f {
-  max-width: 264px;
-  max-height: 112px;
-  padding-left: 156px;
-padding: 100px;
+  margin-right: q20px;
 }
 
 .description-text {
@@ -446,8 +442,7 @@ gap: 16px;
 
 }
 .media {
-  margin: 0 auto;
-  padding: 100px 692px 132px 540px;
+  
 }
 .media-text {
   margin-bottom: 16px;
