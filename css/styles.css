@@ -313,7 +313,7 @@ ul {
   list-style-type: none;
 }
 
-.social-links {
+.social-links  {
   display: flex;
   gap: 24px;
   flex-shrink: 0;
@@ -427,4 +427,36 @@ overflow: auto;
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
+}
+.social-media {
+display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+flex-direction: row;
+gap: 16px;
+padding: 100px 692px 132px 540px;
+}
+.social-media .link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+}
+.social-media .icon {
+  fill: #f4f4fd;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.social-media .link:hover {
+  background-color: #404bbf;
+}
+.media-text {
+  font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #fff;
+
 }
