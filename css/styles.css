@@ -111,11 +111,7 @@ ul {
   color: #404bbf;
 }
 
-.page-footer {
-  background-color: #2e2f42;
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
+
 
 .hero {
   background-color: #2e2f42;
@@ -405,7 +401,6 @@ overflow: auto;
   border-right: 1px solid #e7e9fc;
 }
 
-
 .type {
   font-size: 16px;
   line-height: 1.5;
@@ -414,11 +409,23 @@ overflow: auto;
 }
 
 .page-footer {
-  width: 1440px;
-  height: 312px;
+  background-color: #2e2f42;
+  max-width: 1440px;
+  max-height: 312px;
+  width: 100%;
+  margin: 0 auto;
 }
-.container-page-footer {
+.container-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0 120px;
+}
+.logo-f {
+  max-width: 264px;
+  max-height: 112px;
   padding-left: 156px;
+padding: 100px;
 }
 
 .description-text {
@@ -427,6 +434,8 @@ overflow: auto;
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
+  max-height: 72px;
+  margin-top: 16px;
 }
 .social-media {
 display: flex;
@@ -434,8 +443,16 @@ align-items: flex-start;
 justify-content: flex-start;
 flex-direction: row;
 gap: 16px;
-padding: 100px 692px 132px 540px;
+
 }
+.media {
+  margin: 0 auto;
+  padding: 100px 692px 132px 540px;
+}
+.media-text {
+  margin-bottom: 16px;
+}
+
 .social-media .link {
   display: flex;
   justify-content: center;
