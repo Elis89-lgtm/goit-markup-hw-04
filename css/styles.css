@@ -241,6 +241,7 @@ border-radius: 2px;
 }
 .icon-wrapper {
   display: flex;
+  align-items: center;
     justify-content: center;
     margin: 0 auto;
     border: 1px solid #8e8f99;
@@ -248,6 +249,7 @@ border-radius: 2px;
     width: 264px;
     height: 112px;
     background-color: #f4f4fd;
+    margin-bottom: 8px;
 }
 .features-item {
   width: calc((100% - 72px) / 4);
@@ -259,8 +261,8 @@ border-radius: 2px;
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
-  margin-top: 8px;
 }
+  
 
 .paragraph-text {
   font-size: 16px;
@@ -329,12 +331,12 @@ img {
 }
 
 .employee-info {
-  padding: 32px 0 8px;
+  padding: 32px 0 ;
   border-radius: 0 0 4px 4px;
 }
 ul {
   margin top: 0;
-  padding: 0 16px 32px 16px;
+  padding: 0 16px 0 16px;
   list-style-type: none;
 }
 
@@ -343,6 +345,8 @@ ul {
   gap: 24px;
   flex-shrink: 0;
   align-self: flex-end;
+  justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-links .link {
   display: flex;
@@ -355,10 +359,11 @@ ul {
 }
 .social-links .icon {
   fill: #f4f4fd;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 
-.social-links .link:hover {
+.social-links .link:hover,
+.social-links .link:focus {
   background-color: #404bbf;
 }
 
@@ -455,7 +460,7 @@ overflow: auto;
  
   
 }
-.logo-f {
+.logo-footer {
   margin-right: 120px;
 }
 
