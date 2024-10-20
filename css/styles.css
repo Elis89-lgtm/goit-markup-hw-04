@@ -435,7 +435,7 @@ overflow: auto;
   color: #f4f4fd;
   max-width: 264px;
   max-height: 72px;
-  margin-top: 16px;
+  
 }
 .social-media {
 display: flex;
@@ -445,16 +445,12 @@ flex-direction: row;
 gap: 16px;
 
 }
-.media {
-  
-}
+
 .media-text {
   margin-bottom: 16px;
+ 
 }
 
-.logo.footer-logo {
-  margin-bottom: 16px;
-}
 .social-media .link {
   display: flex;
   justify-content: center;
@@ -477,5 +473,4 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #fff;
-
 }
