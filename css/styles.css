@@ -474,7 +474,7 @@ overflow: auto;
   max-height: 72px;
   
 }
-.social-media,.icon-item {
+.social-media .icon {
 display: flex;
 align-items: flex-start;
 justify-content: flex-start;
@@ -483,13 +483,14 @@ gap: 16px;
 
 }
 
+
 .media-text {
   margin-bottom: 16px;
   padding-left: 16px;
  
 }
 
-.social-media, .link, .icon-item {
+.social-media .link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -499,12 +500,12 @@ gap: 16px;
   background-color: #4d5ae5;
 }
 
-.social-media, .icon {
+.social-media .icon {
   fill: #f4f4fd;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-media .link:hover,
-.social-media .link:hover {
+.social-media .link:focus {
 background-color: #31d0aa;
 }
 .media-text {
