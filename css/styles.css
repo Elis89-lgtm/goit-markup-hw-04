@@ -29,8 +29,9 @@ ul {
 
 .page-header {
   border-bottom: 1px solid #e7e9fc;
-  width: 1440px;
+  max-width: 1440px;
   height: 72px;
+  
   
 }
 .header-container {
@@ -236,18 +237,17 @@ border-radius: 2px;
 
 .features-list {
   display: flex;
-
   gap: 24px;
 }
-.features-icon {
+.icon-wrapper {
   display: flex;
-  justify-content: center;
-  margin: 0 auto;
-  border: 1px solid #8e8f99;
-  border-radius: 4px;
-  width: 264px;
-  height: 112px;
-  background-color: #f4f4fd;
+    justify-content: center;
+    margin: 0 auto;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    width: 264px;
+    height: 112px;
+    background-color: #f4f4fd;
 }
 .features-item {
   width: calc((100% - 72px) / 4);
@@ -259,6 +259,7 @@ border-radius: 2px;
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
+  margin-top: 8px;
 }
 
 .paragraph-text {
@@ -324,6 +325,7 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+  margin-bottom: 8px;
 }
 
 .employee-info {
