@@ -479,8 +479,12 @@ display: flex;
 align-items: flex-start;
 justify-content: flex-start;
 flex-direction: row;
-flex gap: 16px;
+gap: 16px;
 
+}
+.social-media {
+display: flex; 
+gap: 16px;
 }
 
 
